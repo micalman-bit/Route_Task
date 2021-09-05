@@ -10,9 +10,9 @@
 		C45F205E26E3A1800059F981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F205D26E3A1800059F981 /* AppDelegate.swift */; };
 		C45F206026E3A1800059F981 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F205F26E3A1800059F981 /* SceneDelegate.swift */; };
 		C45F206226E3A1800059F981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F206126E3A1800059F981 /* ViewController.swift */; };
-		C45F206526E3A1800059F981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45F206326E3A1800059F981 /* Main.storyboard */; };
 		C45F206726E3A1830059F981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45F206626E3A1830059F981 /* Assets.xcassets */; };
 		C45F206A26E3A1830059F981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45F206826E3A1830059F981 /* LaunchScreen.storyboard */; };
+		C47A011726E3B98700534942 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A011626E3B98700534942 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		C45F205D26E3A1800059F981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C45F205F26E3A1800059F981 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C45F206126E3A1800059F981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C45F206426E3A1800059F981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C45F206626E3A1830059F981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45F206926E3A1830059F981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45F206B26E3A1830059F981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47A011626E3B98700534942 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				C45F205D26E3A1800059F981 /* AppDelegate.swift */,
 				C45F205F26E3A1800059F981 /* SceneDelegate.swift */,
 				C45F206126E3A1800059F981 /* ViewController.swift */,
-				C45F206326E3A1800059F981 /* Main.storyboard */,
+				C47A011626E3B98700534942 /* Alert.swift */,
 				C45F206626E3A1830059F981 /* Assets.xcassets */,
 				C45F206826E3A1830059F981 /* LaunchScreen.storyboard */,
 				C45F206B26E3A1830059F981 /* Info.plist */,
@@ -126,7 +126,6 @@
 			files = (
 				C45F206A26E3A1830059F981 /* LaunchScreen.storyboard in Resources */,
 				C45F206726E3A1830059F981 /* Assets.xcassets in Resources */,
-				C45F206526E3A1800059F981 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +138,7 @@
 			files = (
 				C45F206226E3A1800059F981 /* ViewController.swift in Sources */,
 				C45F205E26E3A1800059F981 /* AppDelegate.swift in Sources */,
+				C47A011726E3B98700534942 /* Alert.swift in Sources */,
 				C45F206026E3A1800059F981 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C45F206326E3A1800059F981 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C45F206426E3A1800059F981 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C45F206826E3A1830059F981 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
